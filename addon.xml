@@ -7,7 +7,7 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
+		<platform>all except iOS</platform>
 		<summary lang="en">Simulates Drop</summary>
 		<description lang="en">DropScript is based off script.thapps.deletemykodi.lite by me and script.hello.world.</description>
 		<license>GNU General Public License, v2</license>
@@ -15,8 +15,8 @@
 		<source>https://github.com/thoffical/script.get.hacked.drop</source>
 		<email>thcorporation8(at)yahoo(dot)com</email>
 		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 		<news>Updated the addon to use new addon.xml metadata</news>
 	</extension>
